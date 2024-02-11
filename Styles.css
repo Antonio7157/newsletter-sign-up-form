@@ -1,10 +1,16 @@
+body{
+  background-color: darkslateblue;
+  align-items: center;
+  justify-content: center;
+}
 .container {
     display: flex;
     border: 2px solid lightcoral;
     border-radius: 10px;
-    width:800px;
+    width:700px;
     justify-content: space-between;
     padding-left: 0;
+    background-color: aliceblue;
     
 
   }

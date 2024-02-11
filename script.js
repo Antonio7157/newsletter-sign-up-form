@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         if (emailRegex.test(email)) {
         
-            alert('Thanks for subscribing! A confirmation email has been sent to ash@loremcompany.com. Please open it and click the button inside to confirm your subscription. Dismiss message ' + email);
+            window.location.href = 'confirmation.html';
         } else {
             
             alert('Error! Please enter a valid email address.');
