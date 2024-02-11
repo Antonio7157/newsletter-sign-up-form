@@ -13,7 +13,7 @@ body{
     padding-left: 0;
     background-color: aliceblue;
     position: absolute;
-    margin-top: 50%; 
+    margin-top: 25%; 
     left: 50%; 
     transform: translate(-50%, -50%);
 
@@ -22,16 +22,25 @@ body{
   .column1 {
     flex: 1;
     height:400px;
+    padding-left: 30px;
 
   }
   .column2 {
     flex: 1;
     height:400px;
     margin-left: auto;
+    padding-right: o px;
 
   }
   img{
     height:400px;
+  }
+  #email{
+    border-radius: 10px;
+  }
+  #subscribe{
+    border-radius: 10px;
+    background-color: tomato;
   }
   
   
